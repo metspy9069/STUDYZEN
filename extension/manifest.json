@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "StudyZen Blocker",
+  "version": "1.0",
+  "permissions": ["tabs", "storage", "scripting"],
+  "host_permissions": ["*://*/*"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
